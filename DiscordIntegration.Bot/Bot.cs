@@ -41,6 +41,7 @@ public class Bot
     public void Destroy() => Client.LogoutAsync();
 
     private async Task Init()
+
     {
         try
         {
